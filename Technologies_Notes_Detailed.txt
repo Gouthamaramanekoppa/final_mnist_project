@@ -1,0 +1,25 @@
+DETAILED NOTES ON TECHNOLOGIES USED IN THE PROJECT
+
+1. Python
+Python is a high-level, interpreted programming language widely used in Artificial Intelligence, Data Science, and Machine Learning. Its simple syntax makes it beginner-friendly while still being powerful for advanced applications. Python supports object-oriented programming and modular coding. In this project, Python was used to implement dataset handling, model building, training, evaluation, and visualization.
+
+2. TensorFlow
+TensorFlow is an open-source deep learning framework developed by Google. It is used to build and train machine learning models efficiently. TensorFlow supports automatic differentiation for gradient computation and can run on CPUs and GPUs. In this project, TensorFlow was used to design, compile, train, and evaluate the neural network model.
+
+3. Keras
+Keras is a high-level API integrated within TensorFlow that simplifies neural network development. It provides components such as Sequential models, Dense layers, Dropout layers, optimizers, and loss functions. In this project, Keras was used to create and structure the neural network architecture.
+
+4. NumPy
+NumPy is a numerical computing library in Python that provides support for multi-dimensional arrays and mathematical operations. It enables fast computations and efficient data manipulation. In this project, NumPy was used for preprocessing, normalization, and prediction label extraction.
+
+5. Matplotlib
+Matplotlib is a Python visualization library used to create graphs and plots. Visualization helps in understanding model performance. In this project, Matplotlib was used to plot training and validation accuracy graphs.
+
+6. Scikit-learn
+Scikit-learn is a machine learning library used for data preprocessing and evaluation metrics. In this project, it was used to generate the confusion matrix to evaluate classification performance.
+
+7. Seaborn
+Seaborn is a visualization library built on top of Matplotlib. It provides better graphical representation with simpler syntax. In this project, Seaborn was used to display the confusion matrix in heatmap format.
+
+8. MNIST Dataset
+The MNIST dataset contains 28x28 grayscale images of handwritten digits from 0 to 9. It includes 60,000 training images and 10,000 testing images. It is widely used for learning and testing image classification models.
